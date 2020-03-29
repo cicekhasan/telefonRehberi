@@ -1,0 +1,171 @@
+body{background-color: #fafafa !important;}
+i:hover {color: #8BC34A !important;}
+
+.card-400 {min-height: 400px;}
+
+.gosterge{
+	text-align      : center      !important;
+	border-radius   : 10px        !important;
+	padding-top     : 30px        !important;
+	padding-bottom  : 10px        !important;
+	color           : white       !important;
+}
+
+.tOrtala td         {vertical-align: baseline !important; align-items: stretch !important;}
+.tTablo             {font-size: 12px          !important;}
+.anaTablo           {width  : 580px           !important; height : 820px      !important;}
+.anaTablo tr td     {padding-left: 30px       !important; padding-right: 30px !important;}
+
+/* GENEL */
+.ortala   {text-align      : center  !important;}
+.sola     {text-align      : left    !important;}
+.saga     {text-align      : right   !important;}
+.ikiTaraf {text-align      : justify !important;}
+.dikey    {vertical-align  : middle  !important;}
+.kalin    {font-weight     : bold    !important;}
+.egik     {font-style      : italic  !important;}
+/* KARAKTER BOYU */
+.kb-12    {font-size       : 12px    !important;}
+.kb-14    {font-size       : 14px    !important;}
+/* BORDER */
+.bGri-1	  {border          : solid 1px #cfd8dc !important;}
+.b-1      {border          : solid 1px black !important;}
+.b-2      {border          : solid 2px black !important;}
+.b-3      {border          : solid 3px black !important;}
+.b-4      {border          : solid 4px black !important;}
+.b-5      {border          : solid 5px black !important;}
+.bt-1     {border-top      : solid 1px black !important;}
+.bt-2     {border-top      : solid 2px black !important;}
+.bt-3     {border-top      : solid 3px black !important;}
+.bt-4     {border-top      : solid 4px black !important;}
+.bt-5     {border-top      : solid 5px black !important;}
+.bb-1     {border-bottom   : solid 1px black !important;}
+.bb-2     {border-bottom   : solid 2px black !important;}
+.bb-3     {border-bottom   : solid 3px black !important;}
+.bb-4     {border-bottom   : solid 4px black !important;}
+.bb-5     {border-bottom   : solid 5px black !important;}
+.bl-1     {border-left     : solid 1px black !important;}
+.bl-2     {border-left     : solid 2px black !important;}
+.bl-3     {border-left     : solid 3px black !important;}
+.bl-4     {border-left     : solid 4px black !important;}
+.bl-5     {border-left     : solid 5px black !important;}
+.br-1     {border-right    : solid 1px black !important;}
+.br-2     {border-right    : solid 2px black !important;}
+.br-3     {border-right    : solid 3px black !important;}
+.br-4     {border-right    : solid 4px black !important;}
+.br-5     {border-right    : solid 5px black !important;}
+/* YÜKSEKLİK */
+.y-10     {height          : 20px  !important;}
+.y-20     {height          : 20px  !important;}
+.y-30     {height          : 30px  !important;}
+.y-40     {height          : 40px  !important;}
+.y-50     {height          : 50px  !important;}
+.y-60     {height          : 60px  !important;}
+.y-70     {height          : 70px  !important;}
+.y-80     {height          : 80px  !important;}
+.y-90     {height          : 90px  !important;}
+.y-100    {height          : 100px !important;}
+/* GENİŞLİK */
+.g-20     {width           : 20px  !important;}
+.g-30     {width           : 30px  !important;}
+.g-40     {width           : 40px  !important;}
+.g-50     {width           : 50px  !important;}
+.g-60     {width           : 60px  !important;}
+.g-70     {width           : 70px  !important;}
+.g-80     {width           : 80px  !important;}
+.g-90     {width           : 90px  !important;}
+.g-100    {width           : 100px !important;}
+/* İÇ BOŞLUK */
+.pt-0     {padding-top     : 0px   !important;}
+.pt-10    {padding-top     : 10px  !important;}
+.pt-20    {padding-top     : 20px  !important;}
+.pt-30    {padding-top     : 30px  !important;}
+.pt-40    {padding-top     : 40px  !important;}
+.pt-50    {padding-top     : 50px  !important;}
+.pt-60    {padding-top     : 60px  !important;}
+.pt-70    {padding-top     : 70px  !important;}
+.pt-80    {padding-top     : 80px  !important;}
+.pt-90    {padding-top     : 90px  !important;}
+.pt-100   {padding-top     : 100px !important;}
+.pb-0     {padding-bottom  : 0px   !important;}
+.pb-10    {padding-bottom  : 10px  !important;}
+.pb-20    {padding-bottom  : 20px  !important;}
+.pb-30    {padding-bottom  : 30px  !important;}
+.pb-40    {padding-bottom  : 40px  !important;}
+.pb-50    {padding-bottom  : 50px  !important;}
+.pb-60    {padding-bottom  : 60px  !important;}
+.pb-70    {padding-bottom  : 70px  !important;}
+.pb-80    {padding-bottom  : 80px  !important;}
+.pb-90    {padding-bottom  : 90px  !important;}
+.pb-100   {padding-bottom  : 100px !important;}
+.pl-0     {padding-left    : 0px   !important;}
+.pl-10    {padding-left    : 10px  !important;}
+.pl-20    {padding-left    : 20px  !important;}
+.pl-30    {padding-left    : 30px  !important;}
+.pl-40    {padding-left    : 40px  !important;}
+.pl-50    {padding-left    : 50px  !important;}
+.pl-60    {padding-left    : 60px  !important;}
+.pl-70    {padding-left    : 70px  !important;}
+.pl-80    {padding-left    : 80px  !important;}
+.pl-90    {padding-left    : 90px  !important;}
+.pl-100   {padding-left    : 100px !important;}
+.pr-0     {padding-right   : 0px   !important;}
+.pr-10    {padding-right   : 10px  !important;}
+.pr-20    {padding-right   : 20px  !important;}
+.pr-30    {padding-right   : 30px  !important;}
+.pr-40    {padding-right   : 40px  !important;}
+.pr-50    {padding-right   : 50px  !important;}
+.pr-60    {padding-right   : 60px  !important;}
+.pr-70    {padding-right   : 70px  !important;}
+.pr-80    {padding-right   : 80px  !important;}
+.pr-90    {padding-right   : 90px  !important;}
+.pr-100   {padding-right   : 100px !important;}
+/* DIŞ BOŞLUK */
+.mt-0     {padding-top     : 0px   !important;}
+.mt-10    {padding-top     : 10px  !important;}
+.mt-20    {padding-top     : 20px  !important;}
+.mt-30    {padding-top     : 30px  !important;}
+.mt-40    {padding-top     : 40px  !important;}
+.mt-50    {padding-top     : 50px  !important;}
+.mt-60    {padding-top     : 60px  !important;}
+.mt-70    {padding-top     : 70px  !important;}
+.mt-80    {padding-top     : 80px  !important;}
+.mt-90    {padding-top     : 90px  !important;}
+.mt-100   {padding-top     : 100px !important;}
+.mb-0     {padding-bottom  : 0px   !important;}
+.mb-10    {padding-bottom  : 10px  !important;}
+.mb-20    {padding-bottom  : 20px  !important;}
+.mb-30    {padding-bottom  : 30px  !important;}
+.mb-40    {padding-bottom  : 40px  !important;}
+.mb-50    {padding-bottom  : 50px  !important;}
+.mb-60    {padding-bottom  : 60px  !important;}
+.mb-70    {padding-bottom  : 70px  !important;}
+.mb-80    {padding-bottom  : 80px  !important;}
+.mb-90    {padding-bottom  : 90px  !important;}
+.mb-100   {padding-bottom  : 100px !important;}
+.ml-0     {padding-left    : 0px   !important;}
+.ml-10    {padding-left    : 10px  !important;}
+.ml-20    {padding-left    : 20px  !important;}
+.ml-30    {padding-left    : 30px  !important;}
+.ml-40    {padding-left    : 40px  !important;}
+.ml-50    {padding-left    : 50px  !important;}
+.ml-60    {padding-left    : 60px  !important;}
+.ml-70    {padding-left    : 70px  !important;}
+.ml-80    {padding-left    : 80px  !important;}
+.ml-90    {padding-left    : 90px  !important;}
+.ml-100   {padding-left    : 100px !important;}
+.mr-0     {padding-right   : 0px   !important;}
+.mr-10    {padding-right   : 10px  !important;}
+.mr-20    {padding-right   : 20px  !important;}
+.mr-30    {padding-right   : 30px  !important;}
+.mr-40    {padding-right   : 40px  !important;}
+.mr-50    {padding-right   : 50px  !important;}
+.mr-60    {padding-right   : 60px  !important;}
+.mr-70    {padding-right   : 70px  !important;}
+.mr-80    {padding-right   : 80px  !important;}
+.mr-90    {padding-right   : 90px  !important;}
+.mr-100   {padding-right   : 100px !important;}
+/* RAPOR ŞABLONU */
+.tRapor, .tBaslik, .tIcerik{border : solid 1px black !important; margin-left: 100px !important;}
+.tBaslik{width : 150px !important;}
+.tIcerik{width : 250px !important;}
