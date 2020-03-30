@@ -28,7 +28,7 @@ sudo chmod -R 775 uploads/
 ```
 
 ### Yapılacaklar
-- [ ] Kayıt ekleme
+- [x] Kayıt ekleme
   - [x] Hangi bilgileri eklemeliyim?
     - [x] Adı ve Soyadı
     - [x] Grubu (Gruplara ayırıp filitrelemek ve silme yerine bir grupta toplamak için),
@@ -63,6 +63,6 @@ sudo chmod -R 775 uploads/
   - [x] Görüntülemede gösterilecek bilgiler belirlenecek,
   - [x] Görüntülemede cinsiyetine göre renklendirme yapılacak. Kadın mı erkek mi renkten anlasılabilir olacak,
 - [ ] Silme
-  - [ ] Silme yapılmayacak, uygun bir grup isminde toplanacak. Normalde görüntülenemeyecek, bunun için özel bir bağlantı olacak.
+  - [ ] Silme yapılmayacak, uygun bir grup isminde toplanacak. Normalde görüntülenemeyecek, bunun için özel bir bağlantı olacak. ŞU AN SİLİYOR!
 
     
