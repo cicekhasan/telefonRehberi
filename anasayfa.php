@@ -63,7 +63,7 @@
 						echo '
 							<tr>
 								<td>'.$kisi['id'].'</td>
-								<td><img src="uploads/uyeler/';
+								<td><img src="uploads/';
 								echo ($resim_adi) ? $resim_adi : "uye.jpg";
 								echo '" alt="" style="width:45px; height:50px;" class="img-fluid img-thumbnail"></td>
 								<td>'.$adi_soyadi.'</td>
@@ -146,7 +146,7 @@
 									        		echo '
 									        	</div>
 									        	<div class="col-md-4 text-center">
-															<img src="uploads/uyeler/'.$resim_adi.'" alt="'.$adi_soyadi.'" class="img-fluid img-thumbnail">
+															<img src="uploads/'.$resim_adi.'" alt="'.$adi_soyadi.'" class="img-fluid img-thumbnail">
 									        	</div>
 									        </div>
 							        		<div class="row text-white mt-3 text-center ';

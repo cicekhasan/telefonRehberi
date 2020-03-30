@@ -3,8 +3,16 @@
 Php pdo kurcalamaları derken...
 
 ### Yapacaklarınız
-1. Proje dizininde "uploads/uyeler" şeklinde bir dizin yapısı oluşturun,
-2. **ayar.php** dosyasını kendiniz ouşturun ve aşagıdaki kodları içerisine yapıştırın.
+1. Proje dizininde "uploads" şeklinde bir dizin oluşturun,
+2. Dosya yetkilerini ayarlayın;
+
+```bash
+sudo adduser $USER www-data
+sudo chown -R $USER:www-data /var/www/html/
+sudo chmod -R 775 /var/www/html/uploads
+```
+
+3. **ayar.php** dosyasını kendiniz ouşturun ve aşagıdaki kodları içerisine yapıştırın.
 
 ```php
 # ayar.php dosya içeriği...
@@ -17,14 +25,6 @@ try {
 } catch (PDOException $hata) {
   echo 'Bağlantı hatası: ' . $hata->getMessage();
 }
-```
-
-3. Dosya yetkilerini ayarlayın;
-
-```bash
-sudo adduser $USER www-data
-sudo chown -R $USER:www-data /var/www/html/
-sudo chmod -R 775 uploads/
 ```
 
 ### Yapılacaklar

@@ -60,7 +60,7 @@ try{
 			// Resim isimlerini parametrede verdiğin rakam kadar oluşturur
 			$karisikVeri = veriUret(10);
 
-			$dosya     = "uploads/uyeler/";
+			$dosya     = "uploads/";
 			$tmp_name  = $_FILES['yuklenecekResim']['tmp_name'];
 			$name      = $_FILES['yuklenecekResim']['name'];
 			$boyut     = $_FILES['yuklenecekResim']['size'];
@@ -249,7 +249,7 @@ try{
 						<form method="post" accept-charset="utf-8" enctype="multipart/form-data">
 							<div class="form-group row">
 						    <div class="col-md-12 text-center">
-						    	<img src="uploads/uyeler/';
+						    	<img src="uploads/';
 										echo ($resim_adi) ? $resim_adi : "uye.jpg";
 										echo '" alt="" style="width:300px;" class="img-fluid img-thumbnail">
 									<input type="file" class="form-control-file mt-2" id="resim" name="yuklenecekResim">

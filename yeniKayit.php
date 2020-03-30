@@ -13,7 +13,7 @@ try{
 	for ($i = 0, $z = strlen($a = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890')-1, $s = $a{rand(0,$z)}, $i = 1; $i != 32; $x = rand(0,$z), $s .= $a{$x}, $s = ($s{$i} == $s{$i-1} ? substr($s,0,-1) : $s), $i=strlen($s)); 
 
 	// RESİM EKLEME GÜNCELLEME
-	$dosya     = "uploads/uyeler/"; // Dosyanın yükleneceği dizin
+	$dosya     = "uploads/"; // Dosyanın yükleneceği dizin
 	$tmp_name  = $_FILES['resim']['tmp_name']; // Dosyanın geçici gerçek adı
 	$name      = $_FILES['resim']['name']; // Dosyanın adı
 	$boyut     = $_FILES['resim']['size']; // Boyutu
