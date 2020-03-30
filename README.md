@@ -24,7 +24,7 @@ try {
 ```bash
 sudo adduser $USER www-data
 sudo chown -R $USER:www-data /var/www/html/
-sudo chmod -R 777 uploads/
+sudo chmod -R 775 uploads/
 ```
 
 ### Yapılacaklar
