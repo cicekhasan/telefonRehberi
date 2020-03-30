@@ -5,15 +5,15 @@
 				<a href="?" title="" class="btn text-primary">
 					<i class="fa fa-sync-alt fa-sm"></i>
 				</a>
-				<a href="?sira=isim&islem=guncel" title="" class="btn text-primary">
+				<a href="?sira=isim" title="" class="btn text-primary">
 					<i class="fa fa-sort-alpha-up fa-sm"></i>
 					<small> İsim</small>
 				</a>
-				<a href="?sira=birim&islem=guncel" title="" class="btn text-primary">
+				<a href="?sira=sehir" title="" class="btn text-primary">
 					<i class="fa fa-sort-alpha-up fa-sm"></i>
-					<small> Birim</small>
+					<small> Şehir</small>
 				</a>
-				<a href="?sira=isim&islem=guncel" title="" class="btn text-success">
+				<a href="?sira=isim" title="" class="btn text-success">
 					<i class="fa fa-user-friends"></i>
 					<small>Güncel</small>
 				</a>
@@ -25,7 +25,7 @@
 					<i class="fa fa-user-plus fa-sm"></i>
 					<small> Ekle</small>	
 				</a>
-				<table class="table table-sm table-hover mt-3 tOrtala">
+				<table class="table table-sm table-hover mt-3 tOrtala" style="font-size: 12px;">
 					<thead>
 						<tr>
 							<th>#</th>
@@ -46,7 +46,7 @@
 
 				(!$_GET['sira']) ? $sira='adi_soyadi' : $sira='adi_soyadi' ;
 				($_GET['sira']=='isim')  ? $sira='adi_soyadi' : $sira='adi_soyadi' ;
-				($_GET['sira']=='birim') ? $sira='birim' : $sira='adi_soyadi' ;
+				($_GET['sira']=='sehir') ? $sira='ev_sehir' : $sira='adi_soyadi' ;
 
 				if ($sira) {
 					if ($_GET['islem']=='guncel') {

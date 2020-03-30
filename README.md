@@ -19,6 +19,13 @@ try {
 }
 ```
 
+3. Dosya yetkilerini ayarlayın;
+
+```bash
+sudo adduser $USER www-data
+sudo chown -R $USER:www-data /var/www/html/
+```
+
 ### Yapılacaklar
 - [ ] Kayıt ekleme
   - [x] Hangi bilgileri eklemeliyim?
