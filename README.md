@@ -4,12 +4,12 @@ Php pdo kurcalamaları derken...
 
 ### Yapacaklarınız
 1. Proje dizininde "uploads" şeklinde bir dizin oluşturun,
-2. Dosya yetkilerini ayarlayın;
+2. Dosya yetkilerini ayarlayın
 
 ```bash
 sudo adduser $USER www-data
 sudo chown -R $USER:www-data /var/www/html/
-sudo chmod -R 775 /var/www/html/uploads
+sudo chmod -R ug+rwx,o=x uploads/
 ```
 
 3. **ayar.php** dosyasını kendiniz ouşturun ve aşagıdaki kodları içerisine yapıştırın.
